@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-encrypt.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap">
+    <link rel="shortcut icon" href="Muñeco.png" type="image/x-icon">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <main>
+        <div class="contenedor">
+            <img src="Logo.png" alt="cargando..." class="logo">
+            <div class="Encriptar">
+                <textarea placeholder="Ingrese el texto" class="texto" cols="30" rows="10"></textarea>
+                <div class="terminos">
+                    <img src="fill.png" alt="cargando..">
+                    <p>Solo letras minusculas y sin acentos.</p>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="encriptado">
+                <textarea cols="20" rows="10" class="mensaje" style="resize:none;"></textarea>
+                <div>
+                    <button class="btn-copy" onclick="btncopy()">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
