@@ -117,7 +117,7 @@ body{
     position: absolute;
     border-radius: 20px;
     color: #0a3871;
-    background-image:url("/Imagenes/Muñeco.png");
+    background-image:url("./Imagenes/Muñeco.png");
     background-repeat: no-repeat;
     border:none;
     font-style: normal;
